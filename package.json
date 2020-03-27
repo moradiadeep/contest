@@ -1,0 +1,16 @@
+{
+  "name": "Deep Moradia - Ether Contest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contest.test.js",
+  "scripts": {
+    "contest": "jest ./contest.test.js --verbose",
+    "contestWithBackup": "jest ./contestWithBackUp.test.js --verbose",
+    "contestWithBackupAndMessageQueue": "jest ./contestWitthBackUp_MessageQueue.test.js --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
