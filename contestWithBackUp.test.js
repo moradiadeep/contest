@@ -8,6 +8,7 @@
  */
 class KeyValueStore {
   constructor(scheduler = 1000) {
+    this.systemStatus = true;
     this.store = {};
   }
   write(key, value) {

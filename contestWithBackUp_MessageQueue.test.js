@@ -18,6 +18,7 @@ class KeyValueStore {
     this.queue = [];
     this.schedulerTime = scheduler;
     this.isChecking = false;
+    this.systemStatus = true;
   }
   write(key, value) {
     this.queue.push({ key, value, op: "write" });
