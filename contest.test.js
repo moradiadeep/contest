@@ -40,7 +40,9 @@ class DistributedStore {
       throw new Error("Did not find");
     }
   }
-
+  dump() {
+    return this.stores;
+  }
   /*
    * Get the store number to read or write in our distributed cache -
    *   Get the total of ascii values of chars in the key
